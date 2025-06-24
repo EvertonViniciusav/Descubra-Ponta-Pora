@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
         })
         .catch((error) => console.error("Erro ao carregar o header ", error))
 
-    fetch("./footer.html")
+    fetch("./footer-v2.html")
         .then((response) => response.text())
         .then((data) => {
             document.getElementById("footer").innerHTML=data
